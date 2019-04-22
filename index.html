@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PWA Einkaufsliste</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <header class="header">
+
+
+    </header>
+
+    <nav class="nav"></nav>
+
+    <main class="main"></main>
+
+    <div class="loader">
+        <!-- Show a spinner or placeholders for content -->
+    </div>
+    
+    <footer class="footer"></footer>
+
+    <script src="/js/app.js" async></script>
+    <!-- Service worker
+    if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }).catch(function(err) {
+      // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+    });
+  }
+    -->
+ </body>
+</html>
