@@ -1,0 +1,25 @@
+{
+  "name": "einkaufsliste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "gulp": "^4.0.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-jshint": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SReisen/Einkaufsliste.git"
+  },
+  "author": "Michael Dittmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SReisen/Einkaufsliste/issues"
+  },
+  "homepage": "https://github.com/SReisen/Einkaufsliste#readme"
+}
